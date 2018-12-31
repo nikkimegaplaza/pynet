@@ -34,7 +34,7 @@ elif my_dict["vendor"].lower() == "juniper" :
 bgp_fields = {
 	'bgp_as' : 42,
 	'peer_as' : 100,
-	'peer_ip' : '1.1.1.1'
+	'peer_ip' : '1.1.1.1' 
 }
 
 my_dict.update(bgp_fields)
